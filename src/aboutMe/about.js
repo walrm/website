@@ -9,6 +9,7 @@ import {
 } from 'reactstrap';
 import aboutPic from './about.jpg' 
 import {projects} from '../projects/projects'
+import resume from '../Bryan_Law_Resume.pdf'
 
 export const about = () => {
     return (
@@ -18,12 +19,12 @@ export const about = () => {
                 <Nav className="mr-auto" navbar>
                     <NavItem> <NavLink href="/about" component={about}>About Me</NavLink> </NavItem>
                     <NavItem> <NavLink href="/projects" component={projects}>Projects</NavLink> </NavItem>
-                    <NavItem> <NavLink href="/components/">Resume[download]</NavLink> </NavItem>
+                    <NavItem> <NavLink href={resume} download="Bryan_Law_Resume.pdf">Resume[download]</NavLink> </NavItem>
                 </Nav>
             </Navbar>
             <Jumbotron style={{width:'70%',height:"70vh",margin:'auto'}}>
                 <img src={aboutPic} alt="homepage" height="200" style={{marginBottom:'25px'}}/>
-                <p className="lead">Rutgers Honors College- New Brunswick 2022</p>
+                <p className="lead">Rutgers Honors College</p>
                 <hr className="my-2" />
                 <p>My name is Bryan Law and I am a computer science major at Rutgers University, New Brunswick. I grew up in Brooklyn, New York but moved to Piscataway in 2012.</p>
                 <p>I began learning computer science in high school but I have always had a love for technology and computers.</p>

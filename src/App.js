@@ -13,7 +13,7 @@ import {projects} from './projects/projects'
 import github from './github.png'
 import linkedin from './linkedin.png'
 import home from './home.jpg'
-import resume from './BryanLawResume.pdf'
+import resume from './Bryan_Law_Resume.pdf'
 import './App.css';
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
         <hr className="my-2" />
         <p>•Flutter&emsp;•ReactJS&emsp;•Java&emsp;•C&emsp;•JavaScript&emsp;•HTML&emsp;•JS&emsp;•Python</p>
         <div>
-          <a href="https://www.linkedin.com/in/bryan-l-92054611b/" target="blank"><img src={linkedin} alt="LinkedIn" height="50px" style={{marginRight:"50px"}}/></a>
+          <a href="https://www.linkedin.com/in/bryanlawye/" target="blank"><img src={linkedin} alt="LinkedIn" height="50px" style={{marginRight:"50px"}}/></a>
           <a href="https://github.com/walrm" target="blank"><img src={github} alt="GitHub" height="50px" style={{marginLeft:"50px"}}/></a>
         </div>
       </Jumbotron>
