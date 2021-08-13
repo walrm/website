@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import { about } from './aboutMe/about';
 import {projects} from './projects/projects'
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
