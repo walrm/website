@@ -19,8 +19,8 @@ export const ClipChimp = () => {
               <th className="about">•React&emsp;•Node&emsp;•Javascript&emsp;•Twitch API</th>
             </tr>
             <tr className="about">
-              <a href="https://clipchimp.onrender.com/" target="blank">Site&emsp;</a>
-              <a href="https://github.com/walrm/ClipChimp" target="blank">Github</a>
+              <a href="https://ruvax.herokuapp.com/" target="blank" style={{marginRight:'10px'}}>Site</a>
+              <a href="https://github.com/kt398/VaccineNotification" target="blank">Github</a>
             </tr>
           </table>
         </Jumbotron>

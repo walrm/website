@@ -2,9 +2,9 @@ import React from 'react';
 import {
     Jumbotron,
 } from 'reactstrap';
-import home from '../home.jpg'
-import github from '../github.png'
-import linkedin from '../linkedin.png'
+import home from './home.jpg'
+import github from './github.png'
+import linkedin from './linkedin.png'
 
 export const About = () => {
     // const animate = (e) =>{

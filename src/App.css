@@ -57,7 +57,7 @@
 #clipchimp{
   background-color: #b5d663;
   transform:rotate(-4deg);
-  transition: all .0s;
+  transition: all .2s;
   margin-top: 0;
   margin-left:50%;
 }
