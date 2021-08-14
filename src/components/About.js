@@ -7,6 +7,15 @@ import github from '../github.png'
 import linkedin from '../linkedin.png'
 
 export const About = () => {
+    // const animate = (e) =>{
+    //     if(!e.target.classList.contains("jumbotron"))return;
+    //     if(e.target.classList.contains('animateFocus')){
+    //         e.target.classList.remove('animateFocus')
+    //     }else{
+    //         e.target.classList.add('animateFocus')
+    //     }
+    // }
+
     return(    
         <div className="App">
             <Jumbotron>

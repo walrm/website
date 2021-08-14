@@ -31,7 +31,7 @@
 }
 
 .about{
-  transition: visibility .1s, opacity .2s linear;
+  transition: visibility 0s, opacity .2s linear;
   visibility: collapse;
   opacity: 0;
 }
@@ -41,15 +41,30 @@
   opacity: 1;
 }
 
-#projectsRuVAX{
-  background-color: #ef67a5;
+#ruvax{
+  background-color: #51c5ea;
   transform:rotate(3deg);
   margin-top: 0;
   margin-left:20%;
 }
 
-#projectsRuVAX:hover{
+#ruvax:hover{
   box-shadow:2em 2em 2em rgba(0,0,0,.7);
   max-width: 50%;
+  transform: scale(1.25);
+}
+
+#clipchimp{
+  background-color: #b5d663;
+  transform:rotate(-4deg);
+  transition: all .0s;
+  margin-top: 0;
+  margin-left:50%;
+}
+
+#clipchimp:hover{
+  box-shadow:2em 2em 2em rgba(0,0,0,.7);
+  max-width: 50%;
+  margin-left:20%;
   transform: scale(1.25);
 }
