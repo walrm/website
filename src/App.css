@@ -52,7 +52,7 @@
   background-color: #51c5ea;
   transform:rotate(3deg);
   margin-top: 20vh;
-  margin-left: 20vw;
+  margin-left: 15vw;
 }
 
 #ruvax:hover{
@@ -82,7 +82,7 @@
   transform:rotate(0deg);
   transition: all .2s;
   margin-top: -50vh;
-  margin-left: 22%;
+  margin-left: 15%;
 }
 
 #travel:hover{
